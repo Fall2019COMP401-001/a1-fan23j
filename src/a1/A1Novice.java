@@ -1,5 +1,6 @@
+package a1;
+
 import java.util.*;
-import java.io.*;
 
 class A1Novice {
     public static void main(String[] args) {
