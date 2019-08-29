@@ -30,14 +30,14 @@ class A1Adept {
             data[i] = new container(first + " " + last, cost);
         }
         Arrays.sort(data);
-        System.out.println("Biggest: " + data[data.length-1].name + " (" + data[data.length-1].income + ")");
-        System.out.println("Smallest: " + data[0].name + " (" + data[0].income + ")");
+        System.out.println("Biggest: " + data[data.length-1].name + " (" + String.format("%.2f", data[data.length-1].income) + ")");
+        System.out.println("Smallest: " + data[0].name + " (" + String.format("%.2f", + data[0].income) + ")");
         double average =0;
         for(int i=0; i<data.length; i++)
         {
             average += data[i].income;
         }
-        System.out.println("Average: " + (average/data.length));
+        System.out.println("Average: " + String.format("%.2f",average/data.length));
     }
 }
 class container implements Comparable<container>
