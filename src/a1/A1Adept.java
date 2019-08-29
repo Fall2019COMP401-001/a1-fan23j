@@ -8,7 +8,10 @@ public class A1Adept {
 		
 		Scanner scan = new Scanner(System.in);
 
-		// Your code follows here.
+		int count = scan.nextInt();
+		// reads the number of customers
+		
+		int[] 
 		
 	}
 }
