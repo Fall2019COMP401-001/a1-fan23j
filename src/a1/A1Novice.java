@@ -5,18 +5,19 @@ import java.util.*;
 class A1Novice {
     public static void main(String[] args) {
     	
+    	//initializes scanner
         Scanner scan = new Scanner(System.in);
-        //initializes scanner
         
-        int n = scan.nextInt();
         //reads number of customers
-        
-        String[][] names = new String[n][2];
+        int n = scan.nextInt();
+       
         // set up 2d array for customer names
+        String[][] names = new String[n][2];
         
-        String[][][] data = new String[n][][];
         //set up 3d array for purchase info
+        String[][][] data = new String[n][][];
         
+   
         for(int i=0; i<n; i++)
         	//for loop iterates n times (number of customers)
         {
